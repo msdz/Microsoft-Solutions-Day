@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Microsoft Solutions Day 活动资料中心，汇集演讲材料、实践指南和学习资源。"
+    />
+    <title>Microsoft Solutions Day · 资料中心</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Microsoft Solutions Day 首页">
+        <span class="microsoft-mark" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </span>
+        <span>Microsoft <strong>Solutions Day</strong></span>
+      </a>
+      <nav aria-label="主要导航">
+        <a href="#resources">活动资料</a>
+        <a href="#about">关于活动</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">MICROSOFT SOLUTIONS DAY 2026</p>
+          <h1>探索技术，<br /><span>共创智能未来</span></h1>
+          <p class="hero-copy">
+            一站式获取活动演讲材料、技术实践指南与精选学习资源，让每一次分享持续创造价值。
+          </p>
+          <a class="primary-button" href="#resources">
+            浏览全部资料
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="glass-card card-back">
+            <span>AZURE</span>
+            <strong>Cloud Native</strong>
+          </div>
+          <div class="glass-card card-front">
+            <span>AI · DATA · CLOUD</span>
+            <strong>Solutions<br />Day</strong>
+            <small>2026</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="资料概览">
+        <div><strong>8</strong><span>精选资料</span></div>
+        <div><strong>4</strong><span>技术主题</span></div>
+        <div><strong>1</strong><span>共同愿景</span></div>
+      </section>
+
+      <section class="resources" id="resources">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">EVENT RESOURCES</p>
+            <h2>活动资料库</h2>
+            <p>按主题筛选或搜索你感兴趣的内容。</p>
+          </div>
+          <label class="search">
+            <span class="visually-hidden">搜索资料</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+            </svg>
+            <input id="resource-search" type="search" placeholder="搜索资料..." autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="filters" role="group" aria-label="按主题筛选">
+          <button class="filter active" type="button" data-filter="all">全部</button>
+          <button class="filter" type="button" data-filter="ai">AI 与 Copilot</button>
+          <button class="filter" type="button" data-filter="cloud">云平台</button>
+          <button class="filter" type="button" data-filter="data">数据分析</button>
+          <button class="filter" type="button" data-filter="security">安全</button>
+        </div>
+
+        <div class="resource-grid" id="resource-grid">
+          <article class="resource-card featured" data-category="ai" data-search="主题演讲 ai copilot 智能时代">
+            <div class="card-top">
+              <span class="tag tag-ai">AI 与 Copilot</span>
+              <span class="file-type">KEYNOTE</span>
+            </div>
+            <div>
+              <p class="resource-number">01</p>
+              <h3>智能时代的业务创新</h3>
+              <p>了解生成式 AI 如何重塑业务流程，以 Microsoft Copilot 激发组织创新潜力。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/copilot/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="cloud" data-search="azure 云原生 应用 现代化 实践指南">
+            <div class="card-top">
+              <span class="tag tag-cloud">云平台</span>
+              <span class="file-type">GUIDE</span>
+            </div>
+            <div>
+              <p class="resource-number">02</p>
+              <h3>Azure 云原生应用现代化</h3>
+              <p>从架构设计到持续交付，掌握构建弹性、可扩展云原生应用的关键路径。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/azure/cloud-adoption-framework/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="data" data-search="microsoft fabric 数据分析 数据价值">
+            <div class="card-top">
+              <span class="tag tag-data">数据分析</span>
+              <span class="file-type">SESSION</span>
+            </div>
+            <div>
+              <p class="resource-number">03</p>
+              <h3>Microsoft Fabric 释放数据价值</h3>
+              <p>连接数据工程、数据科学与商业智能，打造统一、开放的数据分析体验。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/fabric/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="security" data-search="零信任 安全 microsoft security 身份">
+            <div class="card-top">
+              <span class="tag tag-security">安全</span>
+              <span class="file-type">WHITEPAPER</span>
+            </div>
+            <div>
+              <p class="resource-number">04</p>
+              <h3>构建端到端零信任体系</h3>
+              <p>以身份为核心保护人员、设备、应用和数据，建立面向未来的安全基础。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/security/zero-trust/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="ai" data-search="azure ai studio 智能应用 workshop">
+            <div class="card-top">
+              <span class="tag tag-ai">AI 与 Copilot</span>
+              <span class="file-type">WORKSHOP</span>
+            </div>
+            <div>
+              <p class="resource-number">05</p>
+              <h3>构建可信的生成式 AI 应用</h3>
+              <p>通过 Azure AI Foundry 快速完成从模型选型、提示词设计到应用评估的全过程。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/azure/ai-foundry/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="cloud" data-search="github devops 开发者 平台 工程">
+            <div class="card-top">
+              <span class="tag tag-cloud">云平台</span>
+              <span class="file-type">SESSION</span>
+            </div>
+            <div>
+              <p class="resource-number">06</p>
+              <h3>AI 时代的开发者体验</h3>
+              <p>使用 GitHub 与 Azure 打造高效开发者平台，让创意更快、更安全地抵达生产环境。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/devops/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="data" data-search="power bi 可视化 商业智能 dashboard">
+            <div class="card-top">
+              <span class="tag tag-data">数据分析</span>
+              <span class="file-type">DEMO</span>
+            </div>
+            <div>
+              <p class="resource-number">07</p>
+              <h3>用 Power BI 讲述数据故事</h3>
+              <p>将复杂数据转化为清晰洞察，创建可交互、可共享的业务分析体验。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/power-bi/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="resource-card" data-category="security" data-search="安全 copilot security 人工智能 威胁响应">
+            <div class="card-top">
+              <span class="tag tag-security">安全</span>
+              <span class="file-type">DEMO</span>
+            </div>
+            <div>
+              <p class="resource-number">08</p>
+              <h3>Microsoft Security Copilot 实战</h3>
+              <p>借助生成式 AI 提升威胁检测、事件调查和安全响应团队的工作效率。</p>
+            </div>
+            <a href="https://learn.microsoft.com/zh-cn/copilot/security/" target="_blank" rel="noopener">
+              查看资源 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>未找到匹配的资料，请尝试其他关键词。</p>
+      </section>
+
+      <section class="about" id="about">
+        <div>
+          <p class="eyebrow">ABOUT THE EVENT</p>
+          <h2>让技术连接每一种可能</h2>
+        </div>
+        <p>
+          Microsoft Solutions Day 汇聚行业专家、技术实践者与创新先锋，分享 AI、云、数据和安全领域的最新洞察与真实实践。
+          我们希望这些资料能帮助你延续现场灵感，将想法转化为行动。
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand">
+        <span class="microsoft-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>Microsoft <strong>Solutions Day</strong></span>
+      </div>
+      <p>© 2026 Microsoft Solutions Day. 资料仅供活动交流与学习使用。</p>
+      <a href="#resources">返回资料库 ↑</a>
+    </footer>
+  </body>
+</html>
