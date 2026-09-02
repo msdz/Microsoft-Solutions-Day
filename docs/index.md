@@ -1,3 +1,9 @@
+---
+layout: page
+title: "全栈智擎 驭智而行"
+permalink: /index
+---
+
 # Microsoft-Solutions-Day
 
 ## 主题
