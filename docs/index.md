@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
 title: "全栈智擎 驭智而行"
-permalink: /index
+permalink: index.html
 ---
 
 # Microsoft-Solutions-Day
