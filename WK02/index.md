@@ -1,3 +1,12 @@
+---
+lab:
+  title: 智能 Microsoft Copilot副驾驶®实战坊：亲手打造你的第一个业务Agent
+  description: 本次智能 Microsoft Copilot 副驾驶®实战坊 将通过典型场景演练，帮助您判断哪些任务和流程更适合 Agent 化。
+  duration: 180 分钟
+  level: 200
+  islab: true
+---
+
 # 智能 Microsoft Copilot副驾驶®实战坊：亲手打造你的第一个业务Agent
 
 ## 介绍
