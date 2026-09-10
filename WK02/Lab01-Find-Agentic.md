@@ -2,7 +2,7 @@
 lab:
     title: 实验 01 - 从业务流程中发现 Agentic 机会
     description: 在本实验中，您将学习如何识别适合 Agent 自动化的业务流程，并分析 Launch Readiness Command Center 场景中的潜在 Agent 应用。
-    duration: 20 分钟
+    duration: 15 分钟
     level: 100
     islab: true
 ---
@@ -326,16 +326,8 @@ Impact Assessment
 
 ✅ 识别 Human-in-the-Loop 环节
 
-下一步，我们将进入：
+## 下一步
 
-➡ [Lab02 - 利用 Microsoft 365 Copilot 接管你的日常工作](./Lab02-M365-Copilot.html)
+我们将进入：
 
-基于本实验发现的业务机会，定义 Agent 的：
-
-- Persona
-- Goals
-- Knowledge
-- Actions
-- Guardrails
-
-并使用 Agent Builder 构建第一个 Launch Readiness Agent。
+➡ [实验 02 - 利用 Microsoft 365 Copilot 接管你的日常工作](./Lab02-M365-Copilot.html)

@@ -17,6 +17,8 @@ lab:
 - 分析风险
 - 调查问题原因
 - 发现 Agent Opportunity
+- 在 Word、Excel、PowerPoint 和邮件场景中完成项目工作
+- 记录了需要重复执行、仍需人工检查的步骤
 
 但是，一个重要问题仍未解决：
 
@@ -35,6 +37,8 @@ lab:
 
 Amanda 已经利用 Copilot 完成了 Launch Readiness Review 准备工作。
 
+她发现，Copilot 虽然能帮助她快速完成单次任务，但每周仍需要重复打开多个应用、整理资料、分析风险、制作汇报材料和起草行动邮件。
+
 项目状态已经明确：
 
 - 存在供应链风险
@@ -47,7 +51,67 @@ Amanda 已经利用 Copilot 完成了 Launch Readiness Review 准备工作。
 
 ---
 
-## Exercise 1 - 找出工作中的 Gap
+## 从 Chat 到 Agent
+
+### Exercise 1 - 发现 Chat 和 Copilot 的局限
+
+通过上一实验的练习可以发现：Copilot 可以快速生成结果，但仍然需要 Amanda 主动打开文件、选择应用、提供上下文并检查输出。
+
+请记录一次完整的工作过程：
+
+```text
+我需要打开的文件或应用：
+
+我需要重复执行的提示词：
+
+我仍然需要人工检查的内容：
+
+最容易遗漏的事项：
+```
+
+如果 Amanda 每周都要重复完成以下工作：
+
+- 汇总项目状态
+- 检查风险和里程碑
+- 阅读供应商邮件
+- 生成 PowerPoint 评审材料
+- 起草行动邮件
+
+请思考：
+
+1. 哪些工作具有固定输入和固定输出？
+2. 哪些工作可以由 Agent 预处理？
+3. 哪些工作仍然必须由人确认或决策？
+
+### Exercise 2 - 从 Chat 到 Agent 的交接总结
+
+将上一实验中零散的 Copilot 使用经验，整理成一个业务机会：
+
+```text
+重复工作：
+
+业务触发：
+
+需要使用的资料：
+
+Agent 可以预处理的内容：
+
+必须由人工确认的内容：
+
+希望得到的输出：
+```
+
+建议优先选择：
+
+```text
+Launch Readiness Agent
+```
+
+现在进入 Gap 分析：找出这些重复工作的具体问题，再判断哪些问题适合由 Agent 承担。
+
+---
+
+## Exercise 3 - 找出工作中的 Gap
 
 ### Step 1 - 列出每周任务
 
@@ -99,7 +163,7 @@ ______________________
 
 ---
 
-## Exercise 2 - 判断哪些 Gap 适合 Agent
+## Exercise 4 - 判断哪些 Gap 适合 Agent
 
 ### Step 1 - 判断哪些 Gap 适合 Agent
 
@@ -135,7 +199,7 @@ ______________________
 
 ---
 
-## Exercise 3 - 建立 Agent Roadmap
+## Exercise 5 - 建立 Agent Roadmap
 
 ### Step 1 - 设计第一批 Agent
 
@@ -182,7 +246,7 @@ ______________________
 
 ---
 
-## Exercise 4 - 为 Agent Builder 做准备
+## Exercise 6 - 为 Agent Builder 做准备
 
 ### Step 1 - 选择一个 Agent
 
@@ -254,6 +318,8 @@ Launch Readiness Brief
 
 ---
 
-请继续：
+## 下一步
 
-➡ [Lab04 - 使用 Agent Builder 固化业务原型](./Lab04-Agent-Builder.html)
+我们将进入：
+
+➡ [实验 04 - 使用 Agent Builder 固化业务原型](./Lab04-Agent-Builder.html)

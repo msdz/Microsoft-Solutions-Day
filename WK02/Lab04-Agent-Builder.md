@@ -2,7 +2,7 @@
 lab:
     title: 实验 04 - 使用 Agent Builder 固化业务原型
     description: 使用 Agent Builder 创建 Launch Readiness Agent，并验证 Agent 如何帮助项目经理减少重复工作。
-    duration: 40 分钟
+    duration: 15 分钟
     level: 300
     islab: true
 ---
@@ -17,6 +17,7 @@ lab:
 - 设计 Agent
 - 定义 Agent Persona
 - 定义 Agent Goal
+- 确定 Agent 的输入、输出和人工确认边界
 
 现在需要把设计变成真正的 Agent。
 
@@ -249,20 +250,8 @@ Launch Program Management Assistant（上市项目管理助手）。
 
 ---
 
-下一实验中：
+## 下一步
 
-您将体验：
+我们将进入：
 
-➡ [Lab05 - 使用 Cowork 构建 Launch Readiness Command Center](./Lab05-Cowork.html)
-
-届时多个 Agent 将协同完成完整业务流程，实现从：
-
-Chat
-
-→ Agent
-
-→ Multi-Agent
-
-→ Cowork
-
-的最终演进。
+➡ [实验 05 - 使用 Cowork 构建 Launch Readiness Command Center](./Lab05-Cowork.html)

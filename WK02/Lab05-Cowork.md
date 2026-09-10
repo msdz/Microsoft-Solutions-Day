@@ -2,7 +2,7 @@
 lab:
     title: 实验 05 - 使用 Cowork 构建 Launch Readiness Command Center
     description: 使用 Cowork 统筹多个业务任务，完成从项目状态分析到管理层汇报材料生成的完整业务流程。
-    duration: 45 分钟
+    duration: 20 分钟
     level: 300
     islab: true
 ---
@@ -455,7 +455,16 @@ Amanda 可以把更多时间投入在：
 
 恭喜完成：
 
-# 智能制造新品上市
-# Launch Readiness Command Center
+>
+> 智能制造新品上市
+>
+> Launch Readiness Command Center
+>
+> Agentic AI Workshop
+>
 
-Agentic AI Workshop
+## 下一步
+
+我们将进入：
+
+➡ [实验 06 - Copilot Studio：企业级 Agent 扩展路径](./Lab06-Copilot-Studio.html)
