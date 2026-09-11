@@ -81,11 +81,11 @@ Amanda 开始思考：
 
 ---
 
-## Exercise 1 - 发现 Agent Builder 的瓶颈
+## Exercise 1 - 发现 Agent Builder 的扩展机会
 
 ### 任务目标
 
-分析当前 Launch Readiness Agent 的能力边界。
+了解当前 Launch Readiness Agent 已经具备的能力，以及下一步可以扩展的方向。
 
 ---
 
@@ -161,11 +161,11 @@ ________________________________
 
 ---
 
-## Exercise 2 - 发现 Cowork 的瓶颈
+## Exercise 2 - 识别 Cowork 的编排价值
 
 ### 任务目标
 
-分析 Cowork 的能力边界。
+理解 Cowork 如何组织多步骤工作，以及企业自动化还需要哪些连接能力。
 
 ---
 
@@ -209,7 +209,7 @@ Cowork 完成了：
 
 请思考：
 
-Cowork 能否直接执行这些操作？
+哪些操作可以由 Cowork 组织，哪些操作需要通过连接器和业务流程进一步实现？
 
 ---
 
@@ -218,18 +218,18 @@ Cowork 能否直接执行这些操作？
 得到结论：
 
 ```text
-Cowork 可以组织工作
+Cowork 可以组织跨 Agent 的业务工作
 
-但无法直接接入企业业务系统
+Copilot Studio 可以通过工具、连接器和流程，将这些工作进一步连接到企业业务系统
 ```
 
 ---
 
-## Exercise 3 - 为什么需要 Copilot Studio
+## Exercise 3 - 了解 Copilot Studio 的企业扩展能力
 
 ### 任务目标
 
-理解 Copilot Studio 的定位。
+理解 Copilot Studio 如何把业务 Agent 从原型扩展到企业级应用。
 
 ---
 
@@ -259,26 +259,26 @@ Amanda 的企业正在使用：
 | 知识问答 | ✅ | ✅ | ✅ |
 | 文件分析 | ✅ | ✅ | ✅ |
 | Prompt Orchestration | ✅ | ✅ | ✅ |
-| 多步骤流程 | ⚠️ | ✅ | ✅ |
-| 调用 Power Automate | ❌ | ❌ | ✅ |
-| 调用企业 API | ❌ | ❌ | ✅ |
-| Teams 集成 | ❌ | ❌ | ✅ |
-| 审批流程 | ❌ | ❌ | ✅ |
-| ERP 集成 | ❌ | ❌ | ✅ |
-| 人工审批节点 | ⚠️ | ⚠️ | ✅ |
+| 多步骤流程 |  | ✅ | ✅ |
+| 调用 Power Automate |  |  | ✅ |
+| 调用企业 API |  |  | ✅ |
+| Teams 集成 |  |  | ✅ |
+| 审批流程 |  |  | ✅ |
+| ERP 集成 |  |  | ✅ |
+| 人工审批节点 |  |  | ✅ |
 
 ---
 
-### Step 3 - 讲师讲解
+### Step 3 - 讲师讲解：选择合适的工具
 
 总结：
 
 ```text
-Agent Builder: 适合快速原型
+Agent Builder：适合快速验证想法和创建业务原型
 
-Cowork: 适合业务编排
+Cowork：适合组织多个 Agent 和多步骤业务工作
 
-Copilot Studio: 适合企业落地
+Copilot Studio：适合连接企业系统、配置业务动作并支持规模化发布
 ```
 
 ## Exercise 4 - 使用 Copilot Studio 创建企业级 Launch Readiness Agent
@@ -1073,27 +1073,15 @@ Launch Readiness Command Center
 
 ↓
 
-自动创建任务
+生成建议
 
 ↓
 
-自动通知
+发布智能体
 
 ↓
 
-自动审批流转
-
-↓
-
-自动跟踪
-
-↓
-
-人工确认
-
-↓
-
-项目关闭
+规划后续工具和流程
 ```
 
 实现从：

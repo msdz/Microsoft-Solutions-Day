@@ -15,13 +15,13 @@ lab:
 
 ## 实验手册
 
-1. [Lab01 - 从业务流程中筛选 Agentic 机会](./Lab01-Find-Agentic.html)
-2. [Lab02 - 使用 AI 更智能地工作](./Lab02-M365-Copilot.html)
-3. [Lab03 - 发现 Gap 与构建路径](./Lab03-Find-Gap.html)
-4. [Lab04 - 从原型到扩展：先用 Agent Builder固化业务原型](./Lab04-Agent-Builder.html)
-5. [Lab05 - Cowork：多 Agent 协同与 Human In The Loop](./Lab05-Cowork.html)
-6. [Lab06 - Copilot Studio：企业级 Agent 扩展路径](./Lab06-Copilot-Studio.html)
+1. [Lab01 - 从业务流程中筛选 Agentic 机会](./WK02/Lab01-Find-Agentic.html)
+2. [Lab02 - 使用 AI 更智能地工作](./WK02/Lab02-M365-Copilot.html)
+3. [Lab03 - 发现 Gap 与构建路径](./WK02/Lab03-Find-Gap.html)
+4. [Lab04 - 从原型到扩展：先用 Agent Builder固化业务原型](./WK02/Lab04-Agent-Builder.html)
+5. [Lab05 - Cowork：多 Agent 协同与 Human In The Loop](./WK02/Lab05-Cowork.html)
+6. [Lab06 - Copilot Studio：企业级 Agent 扩展路径](./WK02/Lab06-Copilot-Studio.html)
 
 ## 实验数据
 
-[点击下载实验压缩包](../Allfiles/WK02/WK02.zip)
+[点击下载实验压缩包](./Allfiles/WK02/WK02.zip)
