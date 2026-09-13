@@ -1,59 +1,25 @@
 ---
 lab:
-    title: 实验 05 - 使用 Cowork 构建 Launch Readiness Command Center
-    description: 使用 Cowork 统筹多个业务任务，完成从项目状态分析到管理层汇报材料生成的完整业务流程。
-    duration: 20 分钟
-    level: 300
-    islab: true
+  title: "实验 05：使用 Cowork 委托完整业务任务"
+  description: "将新品上市评审准备作为一个完整目标委托给 Cowork，形成状态摘要、风险分析、行动计划和管理层材料。"
+  duration: "20 分钟"
+  level: 300
+  islab: true
 ---
 
-# 实验 05 - 使用 Cowork 构建 Launch Readiness Command Center
+# 实验 05：使用 Cowork 委托完整业务任务
 
 ## 实验目标
 
-在前面的实验中，您已经体验了：
-
-✅ 使用 Copilot Chat 分析业务
-
-✅ 发现 Agent Opportunity
-
-✅ 使用 Agent Builder 创建 Launch Readiness Agent
-
-但是，一个问题仍然存在：
-
-项目经理 Amanda 仍然需要：
-
-- 提问
-- 触发 Agent
-- 汇总结果
-- 编写报告
-
-如果需要完成完整业务流程：
-
-```text
-状态分析
-↓
-风险分析
-↓
-供应商分析
-↓
-行动计划
-↓
-管理层汇报
-```
-
-是否能够一次完成？
-
-这正是 Cowork 提供的价值。
+前面的实验已经展示了即时业务分析和可复用业务智能体。当目标需要处理多份资料、推进多个步骤并交付多项成果时，可以将完整任务委托给 Cowork。
 
 完成本实验后，您将能够：
 
-- 理解 Cowork 的工作方式
-- 使用 Cowork 协调多个任务
-- 理解 多步骤业务编排模式
-- 完成完整业务流程委托
-
----
+- 将完整业务目标清楚地委托给 Cowork
+- 添加项目资料并定义预期成果
+- 观察任务规划和推进过程
+- 核验事实、来源、冲突和建议
+- 在关键节点保留人工参与和确认机制
 
 ## 场景背景
 
@@ -77,394 +43,152 @@ Amanda，
 James
 ```
 
-Amanda 想：
+Amanda 需要在下一次 Launch Readiness Review 前形成一套完整评审材料，包括项目状态摘要、风险分析、行动计划、管理层简报大纲和跨部门行动邮件草稿。
+
+本实验的重点不是连续提出多个问题，而是清楚描述目标、输入、成果形式和检查点，让 Cowork 围绕完整任务开展工作。
+
+## Exercise 1：准备完整任务
+
+### Step 1：明确目标与成果
+
+**目标**：准备 Contoso Edge Gateway X500 Launch Readiness Review。
+
+**预期成果**：
+
+1. 项目状态摘要
+2. 关键工作流与里程碑状态
+3. 主要风险、供应链影响和质量影响
+4. 未来两周行动计划
+5. 管理层评审大纲
+6. 跨部门行动邮件草稿
+7. 需人工确认事项
+
+### Step 2：确认人工检查点
+
+- 事实、日期、责任团队和来源
+- 不同资料之间的不一致
+- 风险等级与里程碑状态
+- Go / No-Go、预算、风险关闭和对外口径
+
+## Exercise 2：创建 Cowork 任务
+
+### Step 1：打开 Cowork
+
+1. 打开智能 Microsoft 365 Copilot 副驾驶®。
+2. 进入 Cowork。
+3. 如果实验租户未提供相应入口，请跟随讲师演示并使用讲师准备的输出完成后续核验步骤。
+
+### Step 2：创建任务
+
+任务名称：`Launch Readiness Review 工作包`
+
+### Step 3：添加资料来源
+
+添加以下 8 份文件，或按界面支持的方式添加项目资料文件夹：
+
+- `01_Product_Overview.docx`
+- `02_Launch_Milestones.xlsx`
+- `03_Risk_Register.xlsx`
+- `04_Market_Enablement.pptx`
+- `05_Cross_Functional_Updates.docx`
+- `06_Supplier_Alert_Email.docx`
+- `07_Beta_Customer_Feedback.docx`
+- `08_Quality_Incident_Report.docx`
+
+## Exercise 3：委托完整业务任务
+
+### Step 1：输入任务说明
 
 ```text
-如果这些工作都要手工完成，
-即使有 Chat 和 Agent，
-仍然需要大量人工整理。
+请基于我提供的全部项目资料，准备 Contoso Edge Gateway X500 Launch Readiness Review 工作包。
+
+请完成：
+1. 生成项目状态摘要；
+2. 汇总关键工作流和里程碑状态；
+3. 分析主要风险及其业务影响；
+4. 分析供应链变化、质量事件和客户反馈的关联；
+5. 生成未来两周行动计划；
+6. 生成管理层评审大纲；
+7. 起草一封跨部门行动邮件；
+8. 列出需人工确认的事项。
+
+工作要求：
+- 关键结论注明资料依据；
+- 不同资料如有冲突，应并列展示；
+- 明确区分事实、分析、建议和人工决策；
+- 不补充资料中没有的数据、日期或责任人；
+- 不代替授权人员批准上市、关闭风险、批准预算或发布对外口径；
+- 行动计划使用“事项、责任团队、目标日期、依赖、状态、人工确认点”字段。
 ```
 
-因此 Amanda 决定：
-
-使用 Cowork。
-
----
-
-## Exercise 1 - 理解 Cowork
-
-### Step 1 - 回顾前面完成的工作
-
-回顾前面完成的工作。
-
-请思考：
-
-如果使用 Chat：
-
-```text
-需要不断提问
-```
-
-如果使用 Agent：
-
-```text
-需要分别运行多个 Agent
-```
-
-那么：
-
-```text
-如果要完成完整业务流程，
-应该怎么办？
-```
-
----
-
-### Step 2 - 识别业务流程中的任务
-
-讨论：
-
-以下哪些工作属于同一个业务流程？
-
-- 项目状态汇总
-- 风险分析
-- 供应商分析
-- 客户反馈分析
-- 管理层简报准备
-- 行动邮件生成
-
-答案：
-
-```text
-Launch Readiness Review
-```
-
----
-
-## Exercise 2 - 创建 Cowork 任务
-
-### Step 1 - 打开 Cowork
-
-打开：
-
-```text
-Microsoft 365 Copilot
-```
-
-进入：
-
-```text
-Cowork
-```
-
-（或由讲师演示当前租户中的 Cowork 功能）
-
----
-
-### Step 2 - 创建 Cowork 任务
-
-创建任务：
-
-```text
-Launch Readiness Command Center
-```
-
----
-
-### Step 3 - 添加资料来源
-
-添加资料来源，点击加号，选择附加云文件和文件夹。
-
-选择：
-
-```text
-01_Product_Overview.docx
-
-02_Launch_Milestones.xlsx
-
-03_Risk_Register.xlsx
-
-04_Market_Enablement.pptx
-
-05_Cross_Functional_Updates.docx
-
-06_Supplier_Alert_Email.docx
-
-07_Beta_Customer_Feedback.docx
-
-08_Quality_Incident_Report.docx
-```
-
-或者将项目资料文件夹，附加到这里。
-
----
-
-## Exercise 3 - 委托完整业务流程
-
-### Step 1 - 委托完整业务流程
-
-将以下任务交给 Cowork。
-
-```text
-你是 Launch Readiness Command Center。
-
-请阅读我提供的所有资料。
-
-完成以下工作：
-
-1. 生成项目状态摘要
-
-2. 总结关键工作流状态
-
-3. 分析主要风险
-
-4. 分析供应链风险
-
-5. 分析质量问题影响
-
-6. 生成未来两周行动计划
-
-7. 生成管理层评审大纲
-
-8. 起草跨部门行动邮件
-
-9. 输出需人工确认事项
-
-工作规则：
-
-- 必须说明结论依据
-- 必须标记资料冲突
-- 不允许编造信息
-- 不允许做最终上市批准结论
-- 所有管理层决策必须保留人工确认
-```
-
-![](./media/QQBrowser_164_pdNDQa1IV6.png)
-
----
-
-### Step 2 - 观察 Cowork 输出
-
-观察 Cowork 输出。
+### Step 2：观察任务过程
 
 关注：
 
-- 是否自动拆解任务
-- 是否形成多个步骤
-- 是否引用多个资料来源
-- 是否发现冲突
+- 是否将完整目标拆分为可理解的步骤
+- 是否使用多份资料
+- 是否形成多项预期成果
+- 是否在关键信息不足或冲突时提示核验
 
-![](./media/QQBrowser_167_vMWYwXNHsA.png)
+## Exercise 4：审核工作成果
 
----
+### Step 1：核验事实与来源
 
-## Exercise 4 - 人工干预 (Human In The Loop)
+抽查至少三项关键结论：
 
-### 背景
+| 结论 | 来源文件 | 已核验 |
+|---|---|---|
+| 关键里程碑状态 |  | [ ] |
+| 最高优先级风险 |  | [ ] |
+| 供应链或质量影响 |  | [ ] |
 
-Agent 与 Cowork 并不能替代管理层。
-
-Amanda 需要：
-
-审核所有关键结论。
-
----
-
-### Step 1 - 审核管理层待决策事项
-
-请检查：
-
-Cowork 输出中的：
-
-```text
-管理层待决策事项
-```
-
-是否包含：
-
-- 日本市场发布日期
-- 安全库存决策
-- 额外可靠性验证
-
-1. 检查生成内容，或者点击生成好的评审报告，点击从OneDrive打开文件。
-2. 打开右下角Copilot按钮，查看管理层待决策事项。
-
-![](./media/QQBrowser_168_DvGxWJueic.png)
-
----
-
-### Step 2 - 审核需人工确认事项
+### Step 2：核验冲突与建议
 
 检查：
 
-```text
-需人工确认事项
-```
+- 是否并列展示不一致内容
+- 是否避免把推测写成已确认事实
+- 建议是否与资料中的事实相匹配
+- 是否标记缺失日期、责任人或证据
 
-是否包含：
+### Step 3：核验人工决策点
 
-- 不一致状态
-- 缺失信息
-- 无法验证内容
+确认以下内容仍由授权人员决定：
 
-![](./media/QQBrowser_169_nZbHJtHges.png)
+- 上市批准
+- 风险关闭或等级变更
+- 预算承诺
+- 对外沟通口径
+- 关键日期或责任归属变更
 
----
+### Step 4：优化任务说明
 
-### Step 3 - 讨论必须人工确认的内容
+如果成果不符合预期，请补充更明确的：
 
-讨论
+- 输出结构
+- 资料范围
+- 来源要求
+- 完成标准
+- 人工确认点
 
-哪些内容必须由人确认？
+## Exercise 5：形成最终工作包
 
-```text
-______________________
-```
+确认工作包包含：
 
----
-
-## Exercise 5 - 从 Agent 到 Command Center
-
-### Step 1 - 回顾整个 Workshop
-
-回顾整个 Workshop。
-
-请完成下表：
-
-| 阶段 | 目标 |
-|--------|--------|
-| Copilot Chat | 理解业务 |
-| Agent | 自动执行单项任务 |
-| Cowork | 完成完整业务流程 |
-
----
-
-### Step 2 - 思考未来扩展
-
-思考：
-
-如果未来继续扩展。
-
-除了：
-
-```text
-Launch Readiness Agent
-```
-
-还能增加哪些 Agent？
-
-示例：
-
-```text
-Risk Monitoring Agent
-
-Supplier Monitoring Agent
-
-Quality Incident Agent
-
-Customer Feedback Agent
-
-Executive Review Agent
-```
-
----
-
-### Step 3 - 讨论 Cowork 的多 Agent 协同能力
-
-讨论
-
-如果这些 Agent 全部完成构建。
-
-Cowork 是否能够：
-
-```text
-自动协调多个 Agent？
-```
-
----
+- [ ] 项目状态摘要
+- [ ] 风险、供应链和质量影响分析
+- [ ] 未来两周行动计划
+- [ ] 管理层评审大纲
+- [ ] 跨部门行动邮件草稿
+- [ ] 需人工确认事项
+- [ ] 关键结论的资料依据
 
 ## 实验总结
 
-在本实验中，您已经完成：
-
-✅ 使用 Chat 理解业务
-
-✅ 使用 Agent 自动处理重复工作
-
-✅ 使用 Cowork 完成完整业务流程
-
-✅ 理解 Human In The Loop
-
-✅ 构建 Launch Readiness Command Center
-
----
-
-### 本次 Workshop 的 Agentic AI 演进路径
-
-```text
-Lab01
-发现 Agent Opportunity
-↓
-Lab02
-利用 Copilot 理解业务
-(Chat)
-↓
-Lab03
-发现 Gap 与设计 Agent
-(Agent Design)
-↓
-Lab04
-使用 Agent Builder 创建 Agent
-(Agent)
-↓
-Lab05
-使用 Cowork 编排业务流程
-(Cowork)
-```
-
----
-
-### Amanda 的最终成果
-
-通过 Agent 与 Cowork 的协同：
-
-✅ 项目状态摘要
-
-✅ 风险分析
-
-✅ 管理层汇报材料
-
-✅ 行动邮件
-
-✅ 人工确认清单
-
-已经全部生成。
-
-Amanda 可以把更多时间投入在：
-
-```text
-决策
-沟通
-风险控制
-业务创新
-```
-
-而不是重复的信息整理工作。
-
----
-
-恭喜完成：
-
->
-> 智能制造新品上市
->
-> Launch Readiness Command Center
->
-> Agentic AI Workshop
->
+本实验中，您把 Launch Readiness Review 作为完整业务任务进行委托，并通过事实、来源、冲突、建议和人工决策点完成质量检查。
 
 ## 下一步
 
-我们将进入：
+当前成果已经覆盖知识分析、业务智能体原型和完整工作委托。下一实验将使用 Microsoft Copilot Studio 扩展测试、发布、渠道和后续业务连接路径。
 
-➡ [实验 06 - Copilot Studio：企业级 Agent 扩展路径](./Lab06-Copilot-Studio.html)
+进入 [实验 06：使用 Microsoft Copilot Studio 扩展企业级智能体](./Lab06-Copilot-Studio.html)。
